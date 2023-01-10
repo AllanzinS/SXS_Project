@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>SexShop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#"><img src="img/logo_sexshop2.png" class="logo"></a>
+            <ul>
+                <li><a href="@">Home</a></li>
+                <li><a href="@">Produtos</a></li>
+                <li><a href="@">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Isso não é apenas sexshop isso<br> é <span>SeTocaSxS</span></h2>
+                <p>testeeee</p>
+            </div>
+            <div class="imgBox">
+                <img src="img/xanaloka.png" class="xanaloka">
+            </div>
+        </div>
+        <ul class="miniaturas">
+            <li><img src="img/xanaloka.png" onclick="imgSlider('img/xanaloka.png');changeCircleColor('#e66eb8')"></li>
+            <li><img src="img/yummy.png" onclick="imgSlider('img/yummy.png');changeCircleColor('#f02d2d')"></li>
+            <li><img src="img/kuloko.png" onclick="imgSlider('img/kuloko.png');changeCircleColor('#70124c')"></li>
+        </ul>
+        <ul class="redes">
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+            <li><a href="#"><img src="img/whatsapp.png"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.xanaloka').src = anything;
+        }
+        function changeCircleColor(color) {
+            const circulo = document.querySelector('.circulo');
+            circulo.style.background = color;
+        }
+
+    </script>
+</body>
+
+</html>
