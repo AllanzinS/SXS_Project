@@ -151,8 +151,8 @@ header ul li a {
     height: 100%;
     background: #e66eb8;
     clip-path: circle(600px at right 750px);
-    
 }
+
 .produtos {
     display: flex;
     justify-content: space-around;
@@ -174,8 +174,9 @@ header ul li a {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px 10px;
-     text-align: center;
+    text-align: center;
 }
+
 .produto h1 {
     text-align: center;
 }
